@@ -1,2 +1,2 @@
 # PIS
-Projekt do PISU
+Projekt do PISu
