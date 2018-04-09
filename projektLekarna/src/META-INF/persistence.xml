@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="projektLekarna">
+		<jta-data-source>testDatabase</jta-data-source>
+		<class>projektLekarna.data.Customer</class>
+		<class>projektLekarna.data.Drug</class>
+		<class>projektLekarna.data.Employee</class>
+		<class>projektLekarna.data.Insurance</class>
+		<class>projektLekarna.data.Recipe</class>
+		<class>projektLekarna.data.Supplier</class>
+		<class>projektLekarna.data.Supplies</class>
+		<class>projektLekarna.data.Warehouse</class>
+		<class>projektLekarna.data.WarehouseDrug</class>
+		<class>projektLekarna.data.Workplace</class>
+	</persistence-unit>
+</persistence>
